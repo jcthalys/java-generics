@@ -1,8 +1,9 @@
 package com.monotonic.generics._1_what_and_why_of_generics;
 
 public class GenericExample {
+
     public static void main(String[] args) {
-        GenericCircularBuffer<String> buffer = new GenericCircularBuffer<String>(10);
+        GenericCircularBuffer<String> buffer = new GenericCircularBuffer<>(10);
 
         buffer.offer("a");
         buffer.offer("bc");

@@ -1,6 +1,7 @@
 package com.monotonic.generics._1_what_and_why_of_generics;
 
 public class TypeSafeExample {
+
     public static void main(String[] args) {
         StringCircularBuffer buffer = new StringCircularBuffer(10);
 
